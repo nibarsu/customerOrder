@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Customer Order</title>
         <style type="text/css">
+        .input {width:70%;}
         </style>
     </head>
     <body>
@@ -13,21 +14,21 @@
     <div>
     <table style="width:800px;border:1px solid;border-collapse:collapse;">
       <tr>
-      <th style='text-align:left;'  colspan="3">公司名稱：</th>
-      <th style='text-align:left;'  colspan="3">公司編號：</th>
-      <th style='text-align:left;'  colspan="2">單據日期：</th>
+      <th style='text-align:left;'  colspan="3">公司名稱：<input class='input' type='text' name='companyName' value=''></th>
+      <th style='text-align:left;'  colspan="3">公司編號：<input class='input' type='text' name='companyNo' value=''></th>
+      <th style='text-align:left;'  colspan="2">單據日期：<input class='input' type='text' name='formDate' value=''></th>
       </tr>
       <tr>
-      <th style='text-align:left;'  colspan="3">統一編號：</th>
-      <th style='text-align:left;'  colspan="5">電話號碼：</th>
+      <th style='text-align:left;'  colspan="3">統一編號：<input class='input' type='text' name='uniformNo' value=''></th>
+      <th style='text-align:left;'  colspan="5">電話號碼：<input class='input' type='text' name='companyPhone' value=''></th>
       </tr>
       <tr>
-      <th style='text-align:left;'  colspan="6">發票地址：</th>
-      <th style='text-align:left;'  colspan="2">單據號碼：</th>
+      <th style='text-align:left;'  colspan="6">發票地址：<input class='input' type='text' name='invoiceAddr' value=''></th>
+      <th style='text-align:left;'  colspan="2">單據號碼：<input class='input' type='text' name='formNo' value=''></th>
       </tr>
       <tr>
-      <th style='text-align:left;'  colspan="6">送貨地址：</th>
-      <th style='text-align:left;'  colspan="2">發票號碼：</th>
+      <th style='text-align:left;'  colspan="6">送貨地址：<input class='input' type='text' name='recAddr' value=''></th>
+      <th style='text-align:left;'  colspan="2">發票號碼：<input class='input' type='text' name='invoiceNo' value=''></th>
       </tr>
       <tr>
       <th style="border:1px solid;">產品編號</th>
